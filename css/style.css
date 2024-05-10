@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,700|Bitter|Poppins|Solway");
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+body {
+	background-color: #f0f9fe;
+	font-family: Lora;
+	font-size: 20px;
+	margin: 0px;
+}
+
+h1, h2, h3 {
+	font-family: Bitter;
+
+}
+a{
+	text-decoration: none;
+	color: #E1F7F5;
+}
+
+
+
+.container h1, h2{
+	color: #1a1761;
+	font-family: fangsong;
+}
+
+.btn-blue a{
+	color: white;
+}
+
+.card4 {
+	background: white;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	box-shadow: 5px 6px 2px rgba(0, 0, 40, 0.7);
+}
